@@ -76,6 +76,21 @@ CU-10: Elegir ver tienda
 CU-11: Comprar ítems y actualizar estadísticas del jugador  
 CU-12: Elegir ver estadísticas o salir del juego  
 
+| Nº Caso de Uso | Actor             | Nombre de las acciones                    | Descripción                                                                                                                   | RF                             |
+| -------------- | ----------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| CU-1           | Jugador           | Ingresar nombre del jugador               | El jugador introduce su nombre al inicio del juego para crear el personaje.                                                   | RF-2.1                         |
+| CU-2           | Jugador           | Calcular fuerza inicial del jugador       | Se genera aleatoriamente la fuerza inicial del jugador al comenzar la partida.                                                | RF-2.2                         |
+| CU-3           | Jugador           | Cambiar fuerza inicial del jugador        | El jugador puede mejorar su fuerza inicial pagando oro para aumentar su poder de ataque.                                      | RF-2.3                         |
+| CU-4           | Jugador           | Elegir combatir contra enemigo            | El jugador selecciona la opción de luchar desde el menú principal para iniciar un combate.                                    | RF-1.2                         |
+| CU-5           | Sistema / Enemigo | Generar enemigo aleatorio                 | El sistema crea un enemigo con estadísticas ajustadas al nivel del jugador.                                                   | RF-3.1, RF-3.3                 |
+| CU-6           | Sistema / Enemigo | Mostrar estadísticas del enemigo          | Se muestran los puntos de ataque, defensa y salud del enemigo antes de iniciar el combate.                                    | RF-3.2, RF-5.4                 |
+| CU-7           | Jugador / Enemigo | Iniciar combate por turnos                | Se desarrolla el combate por turnos entre jugador y enemigo, alternando ataques y defensa.                                    | RF-4.1, RF-4.2, RF-4.3         |
+| CU-8           | Jugador / Sistema | Calcular daño y actualizar salud          | Se calcula el daño del jugador y del enemigo según ataque y defensa, y se actualizan las estadísticas de salud.               | RF-4.1, RF-4.2                 |
+| CU-9           | Sistema / Jugador | Detectar victoria o derrota               | El sistema determina si el jugador gana o pierde el combate y aplica consecuencias como oro, subida de nivel o fin del juego. | RF-4.3, RF-4.4, RF-2.5, RF-4.5 |
+| CU-10          | Jugador           | Elegir ver tienda                         | El jugador accede a la tienda desde el menú principal para ver los ítems disponibles.                                         | RF-1.3, RF-5.1                 |
+| CU-11          | Jugador / Tienda  | Comprar ítems y actualizar estadísticas   | El jugador compra armas, armaduras o pociones y sus estadísticas se actualizan según el ítem adquirido.                       | RF-5.2, RF-5.3, RF-5.4, RF-5.5 |
+| CU-12          | Jugador           | Elegir ver estadísticas o salir del juego | El jugador puede consultar sus estadísticas o seleccionar salir del juego desde el menú principal.                            | RF-1.4, RF-1.5, RF-2.6         |
+
 ## Diagrama de casos de uso
 
 ![](img.)
