@@ -88,7 +88,7 @@ CU-12: Elegir ver estadísticas o salir del juego
 | CU-8           | Jugador / Sistema | Calcular daño y actualizar salud          | Se calcula el daño del jugador y del enemigo según ataque y defensa, y se actualizan las estadísticas de salud.               | RF-4.1, RF-4.2                 |
 | CU-9           | Sistema / Jugador | Detectar victoria o derrota               | El sistema determina si el jugador gana o pierde el combate y aplica consecuencias como oro, subida de nivel o fin del juego. | RF-4.3, RF-4.4, RF-2.5, RF-4.5 |
 | CU-10          | Jugador           | Elegir ver tienda                         | El jugador accede a la tienda desde el menú principal para ver los ítems disponibles.                                         | RF-1.3, RF-5.1                 |
-| CU-11          | Jugador / Tienda  | Comprar ítems y actualizar estadísticas   | El jugador compra armas, armaduras o pociones y sus estadísticas se actualizan según el ítem adquirido.                       | RF-5.2, RF-5.3, RF-5.4, RF-5.5 |
+| CU-11          | Jugador / Tienda  | Comprar ítems y actualizar estadísticas   | El jugador compra armas, armaduras o pociones y sus estadísticas se actualizan según el ítem adquirido.                       | RF-2.4, RF-5.2, RF-5.3, RF-5.4, RF-5.5 |
 | CU-12          | Jugador           | Elegir ver estadísticas o salir del juego | El jugador puede consultar sus estadísticas o seleccionar salir del juego desde el menú principal.                            | RF-1.4, RF-1.5, RF-2.6         |
 
 ## Diagrama de casos de uso
