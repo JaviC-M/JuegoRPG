@@ -51,7 +51,30 @@ RF-5.3 Mejorar estadísticas según el ítem comprado
 RF-5.4 Comprobar que el jugador tiene suficiente oro  
 RF-5.5 Salir de la tienda  
 
+## Actores
+
+- Jugador: Interactúa con el menú, combate enemigos, compra ítems, gestiona sus estadísticas y toma todas las decisiones del juego.
+
+- Enemigo: Participa en los combates contra el jugador. Representa los desafíos de la mazmorra y tiene estadisticas segun el nivel del jugador
+
+- Sistema / Juego: Controla la lógica interna; genera enemigos, inicia combates, calcula daño, administra la experiencia, el oro y la progresión.
+
+- Tienda: Permite comprar ítems y mejorar atributos.
+
 ## Casos de uso
+
+CU-1: Ingresar nombre del jugador  
+CU-2: Calcular fuerza inicial del jugador  
+CU-3: Cambiar fuerza inicial del jugador pagando oro  
+CU-4: Elegir combatir contra enemigo  
+CU-5: Generar enemigo aleatorio según nivel del jugador  
+CU-6: Mostrar estadísticas del enemigo durante el combate  
+CU-7: Iniciar combate por turnos  
+CU-8: Calcular daño y actualizar salud del jugador y enemigo  
+CU-9: Detectar victoria o derrota del jugador  
+CU-10: Elegir ver tienda  
+CU-11: Comprar ítems y actualizar estadísticas del jugador  
+CU-12: Elegir ver estadísticas o salir del juego  
 
 ## Diagrama de casos de uso
 
