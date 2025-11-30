@@ -97,7 +97,7 @@ CU-12: Elegir ver estadísticas o salir del juego
 
 ## Diagrama de clase
 
-![](img.)
+![DiagramaClases](img/DiagramaClases.png)
 
 ## Diagrama de gantt
 
