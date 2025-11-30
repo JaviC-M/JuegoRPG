@@ -93,7 +93,7 @@ CU-12: Elegir ver estadísticas o salir del juego
 
 ## Diagrama de casos de uso
 
-![](img.)
+![DiagramaCasosdeuso](img/DiagramaCasosdeuso.png)
 
 ## Diagrama de clase
 
