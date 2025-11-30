@@ -95,7 +95,7 @@ CU-12: Elegir ver estadísticas o salir del juego
 
 ![DiagramaCasosdeuso](img/DiagramaCasosdeuso.png)
 
-## Diagrama de clase
+## Diagrama de clases
 
 ![DiagramaClases](img/DiagramaClases.png)
 
